@@ -4,23 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ae2ddc97-a51b-4bfd-ba31-6d388320b760" name="Changes" comment="project hr-payroll created">
-      <change afterPath="$PROJECT_DIR$/hr-payroll/src/main/java/com/xavier/payroll/entities/Payment.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hr-payroll/src/main/java/com/xavier/payroll/resources/PaymentResource.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hr-payroll/src/main/java/com/xavier/payroll/services/PaymentService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="ae2ddc97-a51b-4bfd-ba31-6d388320b760" name="Changes" comment="hr-payroll implementation mock">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/payroll/.gitattributes" beforeDir="false" afterPath="$PROJECT_DIR$/hr-payroll/.gitattributes" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/payroll/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/hr-payroll/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/payroll/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" afterPath="$PROJECT_DIR$/hr-payroll/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/payroll/mvnw" beforeDir="false" afterPath="$PROJECT_DIR$/hr-payroll/mvnw" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/payroll/mvnw.cmd" beforeDir="false" afterPath="$PROJECT_DIR$/hr-payroll/mvnw.cmd" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/payroll/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/hr-payroll/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/payroll/src/main/java/com/xavier/payroll/PayrollApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/hr-payroll/src/main/java/com/xavier/payroll/PayrollApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/payroll/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/hr-payroll/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/payroll/src/test/java/com/xavier/payroll/PayrollApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/hr-payroll/src/test/java/com/xavier/payroll/PayrollApplicationTests.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,6 +34,7 @@
     "accountId": "df21e845-37a3-43d5-808f-3f6d393c53b4"
   }
 }]]></component>
+  <component name="KubernetesApiPersistence"><![CDATA[{}]]></component>
   <component name="KubernetesApiProvider"><![CDATA[{
   "isMigrated": true
 }]]></component>
@@ -89,8 +75,8 @@
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
-    "project.structure.last.edited": "Project",
-    "project.structure.proportion": "0.0",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.0",
     "run.configurations.included.in.services": "true",
     "to.speed.mode.migration.done": "true",
@@ -106,8 +92,20 @@
         <option value="SpringBootApplicationConfigurationType" />
       </set>
     </option>
+    <option name="configurationStatuses">
+      <map>
+        <entry key="SpringBootApplicationConfigurationType">
+          <value>
+            <map>
+              <entry key="HrWorkerApplication" value="STOPPED" />
+              <entry key="PayrollApplication (1)" value="STOPPED" />
+            </map>
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.PayrollApplication (1)">
+  <component name="RunManager" selected="Spring Boot.HrWorkerApplication">
     <configuration name="HrWorkerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
       <module name="hr-worker" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.xavier.hrworker.HrWorkerApplication" />
@@ -138,7 +136,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1765751107659</updated>
-      <workItem from="1765751108795" duration="3259000" />
+      <workItem from="1765751108795" duration="9591000" />
     </task>
     <task id="LOCAL-00001" summary="hr-worker implementation">
       <option name="closed" value="true" />
@@ -156,7 +154,15 @@
       <option name="project" value="LOCAL" />
       <updated>1765756663382</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="hr-payroll implementation mock">
+      <option name="closed" value="true" />
+      <created>1765758143175</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1765758143175</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -165,6 +171,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="hr-worker implementation" />
     <MESSAGE value="project hr-payroll created" />
-    <option name="LAST_COMMIT_MESSAGE" value="project hr-payroll created" />
+    <MESSAGE value="hr-payroll implementation mock" />
+    <option name="LAST_COMMIT_MESSAGE" value="hr-payroll implementation mock" />
   </component>
 </project>
