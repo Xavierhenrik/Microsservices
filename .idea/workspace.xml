@@ -4,16 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ae2ddc97-a51b-4bfd-ba31-6d388320b760" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/hr-payroll/src/main/java/com/xavier/payroll/config/AppConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hr-payroll/src/main/java/com/xavier/payroll/entities/Worker.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+    <list default="true" id="ae2ddc97-a51b-4bfd-ba31-6d388320b760" name="Changes" comment="RestTemplate implementation">
+      <change afterPath="$PROJECT_DIR$/hr-payroll/src/main/java/com/xavier/payroll/feignclients/WorkerFeignClient.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/hr-payroll/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/hr-payroll/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hr-payroll/src/main/java/com/xavier/payroll/PayrollApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/hr-payroll/src/main/java/com/xavier/payroll/PayrollApplication.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/hr-payroll/src/main/java/com/xavier/payroll/services/PaymentService.java" beforeDir="false" afterPath="$PROJECT_DIR$/hr-payroll/src/main/java/com/xavier/payroll/services/PaymentService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/hr-payroll/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/hr-payroll/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hr-worker/src/main/java/com/xavier/hrworker/repository/WorkerRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/hr-worker/src/main/java/com/xavier/hrworker/repository/WorkerRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hr-worker/src/main/java/com/xavier/hrworker/resources/WorkerResource.java" beforeDir="false" afterPath="$PROJECT_DIR$/hr-worker/src/main/java/com/xavier/hrworker/resources/WorkerResource.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hr-worker/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/hr-worker/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -24,6 +22,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Class" />
+        <option value="Interface" />
       </list>
     </option>
   </component>
@@ -115,7 +114,7 @@
         <entry key="SpringBootApplicationConfigurationType">
           <value>
             <map>
-              <entry key="HrPayrollApplication" value="STOPPED" />
+              <entry key="HrPayrollApplication" value="FAILED" />
               <entry key="HrWorkerApplication" value="STOPPED" />
               <entry key="PayrollApplication" value="FAILED" />
             </map>
@@ -124,7 +123,7 @@
       </map>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.HrWorkerApplication">
+  <component name="RunManager" selected="Spring Boot.HrPayrollApplication">
     <configuration name="HrPayrollApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="hr-payroll" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.xavier.payroll.PayrollApplication" />
@@ -160,7 +159,7 @@
       <option name="presentableId" value="Default" />
       <updated>1765751107659</updated>
       <workItem from="1765751108795" duration="11054000" />
-      <workItem from="1765846665833" duration="3458000" />
+      <workItem from="1765846665833" duration="5507000" />
     </task>
     <task id="LOCAL-00001" summary="hr-worker implementation">
       <option name="closed" value="true" />
@@ -194,7 +193,15 @@
       <option name="project" value="LOCAL" />
       <updated>1765773526767</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="RestTemplate implementation">
+      <option name="closed" value="true" />
+      <created>1765851043780</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1765851043780</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -205,6 +212,7 @@
     <MESSAGE value="project hr-payroll created" />
     <MESSAGE value="hr-payroll implementation mock" />
     <MESSAGE value="teste" />
-    <option name="LAST_COMMIT_MESSAGE" value="teste" />
+    <MESSAGE value="RestTemplate implementation" />
+    <option name="LAST_COMMIT_MESSAGE" value="RestTemplate implementation" />
   </component>
 </project>
