@@ -4,8 +4,16 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ae2ddc97-a51b-4bfd-ba31-6d388320b760" name="Changes" comment="hr-payroll implementation mock">
+    <list default="true" id="ae2ddc97-a51b-4bfd-ba31-6d388320b760" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/hr-payroll/src/main/java/com/xavier/payroll/config/AppConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hr-payroll/src/main/java/com/xavier/payroll/entities/Worker.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hr-payroll/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/hr-payroll/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hr-payroll/src/main/java/com/xavier/payroll/services/PaymentService.java" beforeDir="false" afterPath="$PROJECT_DIR$/hr-payroll/src/main/java/com/xavier/payroll/services/PaymentService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hr-payroll/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/hr-payroll/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hr-worker/src/main/java/com/xavier/hrworker/repository/WorkerRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/hr-worker/src/main/java/com/xavier/hrworker/repository/WorkerRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hr-worker/src/main/java/com/xavier/hrworker/resources/WorkerResource.java" beforeDir="false" afterPath="$PROJECT_DIR$/hr-worker/src/main/java/com/xavier/hrworker/resources/WorkerResource.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -21,28 +29,30 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="UPDATE_TYPE" value="REBASE" />
   </component>
-  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
-  "lastFilter": {
-    "state": "OPEN",
-    "assignee": "Xavierhenrik"
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;Xavierhenrik&quot;
   }
-}]]></component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "https://github.com/Xavierhenrik/Microsservices.git",
-    "accountId": "df21e845-37a3-43d5-808f-3f6d393c53b4"
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/Xavierhenrik/Microsservices.git&quot;,
+    &quot;accountId&quot;: &quot;df21e845-37a3-43d5-808f-3f6d393c53b4&quot;
   }
-}]]></component>
-  <component name="KubernetesApiPersistence"><![CDATA[{}]]></component>
-  <component name="KubernetesApiProvider"><![CDATA[{
-  "isMigrated": true
-}]]></component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 4
-}]]></component>
+}</component>
+  <component name="KubernetesApiPersistence">{}</component>
+  <component name="KubernetesApiProvider">{
+  &quot;isMigrated&quot;: true
+}</component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 4
+}</component>
   <component name="ProjectId" id="36r3xIK3C2Pghk6cxbzNhjhYQoI" />
   <component name="ProjectLevelVcsManager">
+    <OptionsSetting value="false" id="Update" />
     <ConfirmationsSetting value="2" id="Add" />
   </component>
   <component name="ProjectViewState">
@@ -59,7 +69,10 @@
     "RequestMappingsPanelWidth0": "75",
     "RequestMappingsPanelWidth1": "75",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
+    "RunOnceActivity.git.unshallow": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "Spring Boot.HrPayrollApplication.executor": "Run",
     "Spring Boot.HrWorkerApplication.executor": "Run",
     "Spring Boot.PayrollApplication (1).executor": "Run",
     "Spring Boot.PayrollApplication.executor": "Run",
@@ -83,6 +96,11 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.xavier.payroll.entities" />
+    </key>
+  </component>
   <component name="RunDashboard">
     <option name="configurationTypes">
       <set>
@@ -97,8 +115,9 @@
         <entry key="SpringBootApplicationConfigurationType">
           <value>
             <map>
+              <entry key="HrPayrollApplication" value="STOPPED" />
               <entry key="HrWorkerApplication" value="STOPPED" />
-              <entry key="PayrollApplication (1)" value="STOPPED" />
+              <entry key="PayrollApplication" value="FAILED" />
             </map>
           </value>
         </entry>
@@ -106,6 +125,13 @@
     </option>
   </component>
   <component name="RunManager" selected="Spring Boot.HrWorkerApplication">
+    <configuration name="HrPayrollApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="hr-payroll" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.xavier.payroll.PayrollApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="HrWorkerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
       <module name="hr-worker" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.xavier.hrworker.HrWorkerApplication" />
@@ -113,13 +139,10 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PayrollApplication (1)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
-      <module name="payroll" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.xavier.payroll.PayrollApplication" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+    <list>
+      <item itemvalue="Spring Boot.HrWorkerApplication" />
+      <item itemvalue="Spring Boot.HrPayrollApplication" />
+    </list>
   </component>
   <component name="SharedIndexes">
     <attachedChunks>
@@ -136,7 +159,8 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1765751107659</updated>
-      <workItem from="1765751108795" duration="9591000" />
+      <workItem from="1765751108795" duration="11054000" />
+      <workItem from="1765846665833" duration="3458000" />
     </task>
     <task id="LOCAL-00001" summary="hr-worker implementation">
       <option name="closed" value="true" />
@@ -162,7 +186,15 @@
       <option name="project" value="LOCAL" />
       <updated>1765758143175</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="teste">
+      <option name="closed" value="true" />
+      <created>1765773526767</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1765773526767</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -172,6 +204,7 @@
     <MESSAGE value="hr-worker implementation" />
     <MESSAGE value="project hr-payroll created" />
     <MESSAGE value="hr-payroll implementation mock" />
-    <option name="LAST_COMMIT_MESSAGE" value="hr-payroll implementation mock" />
+    <MESSAGE value="teste" />
+    <option name="LAST_COMMIT_MESSAGE" value="teste" />
   </component>
 </project>

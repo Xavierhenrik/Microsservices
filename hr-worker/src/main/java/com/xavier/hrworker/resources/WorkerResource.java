@@ -16,16 +16,18 @@ import java.util.List;
 public class WorkerResource {
 
     @Autowired
-    private  WorkerRepository repository;
+    private WorkerRepository repository;
 
     @GetMapping
-    public ResponseEntity<List<Worker>> FindAll() {
+    public ResponseEntity<List<Worker>> findAll() {
         List<Worker> workers = repository.findAll();
         return ResponseEntity.ok(workers);
     }
-    @GetMapping(value = "/{id}")
-    public Worker FindById(@PathVariable long id) {
-        Worker worker = repository.findById(1L).get();
-        return ResponseEntity.ok(worker).getBody();
+
+    @GetMapping("/{id}")
+    public ResponseEntity<Worker> findById(@PathVariable Long id) {
+        Worker worker = repository.findById(id)
+                .orElseThrow(() -> new RuntimeException("Worker not found"));
+        return ResponseEntity.ok(worker);
     }
 }
